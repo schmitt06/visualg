@@ -1,0 +1,20 @@
+algoritmo "Estrutura de Decisão"
+
+var
+  idade: inteiro
+
+inicio
+
+  escreval("---Teste de condição composto")
+  escreval("Digite qua sua idade: ")
+  leia(idade)
+
+  se (idade >= 18) entao
+    escreval("Resultado: maior de idade!")
+  senao
+    escreval("Resultado: Menor de idade!")
+
+  fimse
+  escreva()
+
+fimalgoritmo
